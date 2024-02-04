@@ -5,18 +5,21 @@ learning gitbranching
 benefit of branching
 isolation
 parallel development
-
+git
 create abranch
 ## git commands
 
 git branch 'branch name'
 2switching btwn branches-git switch branch name orgit check out branch name
 3.merging
--git merge sourcebranch
+'''bash
+   git merge sourcebranch
+'''  
 5.directly switching to anew branch
-...
-    bash
+''' bash
      git checkout -b branchname
-...bash
+'''
 4.resolve conflicts
-git merge tool
+'''bash
+   git merge tool
+'''   
